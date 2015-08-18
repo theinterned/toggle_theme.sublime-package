@@ -1,0 +1,23 @@
+[
+  // Ned's Theme Swapper Options
+  {
+    "keys": ["super+alt+ctrl+t"],
+    "command": "toggle_theme",
+    "args": {
+      "options": [
+        { // good for nighttime / dark rooms
+          "color_scheme": "Packages/Base16 Color Schemes/base16-ocean.dark.tmTheme" ,
+          "theme": "Spacegray.sublime-theme"
+        },
+        { // good for outdoors / sunlight
+          "color_scheme": "Packages/Base16 Color Schemes/base16-ocean.light.tmTheme",
+          "theme": "Spacegray Light.sublime-theme"
+        },
+        { // good for daytime / well-lit rooms
+          "color_scheme": "Packages/Base16 Color Schemes/base16-eighties.dark.tmTheme",
+          "theme": "Spacegray Eighties.sublime-theme"
+        }
+      ]
+    }
+  }
+]
